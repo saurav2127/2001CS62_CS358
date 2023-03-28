@@ -15,4 +15,4 @@ def getFTPclose():
 
     return [ftp_close]
 
-wrpcap("FTP_Connection_End_2001CS62.pcap", getFTPclose())
+wrpcap("FTP_connection_close_2001CS62.pcap", getFTPclose())
