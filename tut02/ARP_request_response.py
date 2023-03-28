@@ -1,7 +1,7 @@
 from scapy.all import sr1, srp, send, wrpcap, Ether, ARP
 from random import randint
 
-ARP_IP = "172.16.183.8"
+ARP_IP = "14.139.194.106"
 BROADCAST_MAC = "ff:ff:ff:ff:ff:ff"
 
 SRC_PORT = randint(1024, 65535)
