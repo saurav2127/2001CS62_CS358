@@ -175,7 +175,7 @@ def main(fname):
                 adjListNames[rev_map_key[second]].append(first)
                 allTables[rev_map_key[first], rev_map_key[second]] = weight
                 allTables[rev_map_key[second], rev_map_key[first]] = weight
-
+	#Pushing a seperate queue into all allQueue list for every router
         for i in range(0, numOfRouters):
             allTables[i, i] = 0.0
             allQueues.append(Queue())
