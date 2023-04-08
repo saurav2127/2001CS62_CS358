@@ -154,7 +154,7 @@ def main(fname):
             list() for f in range(numOfRouters)
         ]  
 
-        #Declaring a list for queue as well as locks for threads 
+        #Declaring a list for all the seperate queues for each routers as well as locks for threads 
         allQueues = []
         locks = []
 
