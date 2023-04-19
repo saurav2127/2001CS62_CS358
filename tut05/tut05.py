@@ -29,7 +29,7 @@ def router(idRouter, rTable, sharedQ, adjListKeys, locks, barrier, graph):
         
         time.sleep(2)
 	
-        #Acquire lock for all adjacent nodes one by one and send data through respective queue
+        #Acquire lock for other nodes in graph one by one flooding LSP packets through a shared queue
         for node in range(numOfRouters):
             if(node == idRouter):
                 continue
